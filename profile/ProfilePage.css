@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    height: 75px;
+    background-color: rgb(41, 41, 41);
+}
+#title{
+    color: white;
+    margin-left: 25%;
+    font-weight: normal;
+}
+.nav-details{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    list-style-type: none;
+    margin-left: 50px;
+    gap: 80px;
+}
+
+.home{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+.mp{
+    color: white;
+    text-decoration: none;
+}
+
+.fc{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+.navbar button{
+    padding: 2px;
+    background-color: rgb(68, 161, 192);
+    color: white;
+    padding: 5px;
+    border-radius: 8%;
+    box-shadow: 2px 2px black;
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containermaster{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-content: center;
+    height: 1000px;
+    flex-direction: column;
+}
+.profilebox{
+    margin-top: 30px;
+}
+
+.profileinfo{
+    width: 550px;
+    height: 300px;
+    border: 2pt rgb(224, 224, 224) solid;
+}
+
+.topgreenbox{
+    background-color: lightseagreen;
+    height: 80px;
+    width: 100%;
+}
+.selfie{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.usercard{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+h1,h2,p,a{
+    margin: 2px;   
+}
+
+.marker{
+    height:18px;
+    width: 12px;
+}
+
+.h22{
+    margin: 10px;
+}
+.h11{
+    margin-top: 20px;
+}
+.gear{
+    height:22px;
+    width: 22px;
+}
+
+.ed{
+    width: 550px;
+    height: 200px;
+    border: 2pt rgb(224, 224, 224) solid;
+    margin-top: 40px;
+}
+
+.topedbox{
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.topedbox h3{
+    color: rgb(231, 231, 231);
+    align-content: center;
+    Align-Items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+.edcard{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.year{
+    color: gray;
+    margin-top: 10px;
+}
+
+.belt{
+    margin-top: 10px;
+}
+
+.comcontainer{
+        display: flex;
+        align-content: center;
+        height: 1000px;
+        flex-direction: column;
+        margin-right: 50px;
+}
+
+.connectionbox{
+    margin-top: 30px;
+}
+
+.crinfo{
+    width: 300px;
+    height: 180px;
+    border: 2pt rgb(224, 224, 224) solid;
+    margin-left: 40px;
+}
+
+.crtopbox{
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.crtopbox h3{
+    color: rgb(231, 231, 231);
+    align-content: center;
+    Align-Items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.crtopbox button{
+    padding: 2px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 40%;
+    width: 30px;
+}
+
+.friendrequest{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.friendrequest li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 15pt;
+}
+
+.usercircle{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accept{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 58px;
+}
+
+.accept1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+.close{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.yourconnectionbox{
+    margin-top: 70px;
+}
+
+.yourinfo{
+    width: 300px;
+    height: 250px;
+    border: 2pt rgb(224, 224, 224) solid;
+}
+
+.yourtopbox{
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.yourtopbox h3{
+    color: rgb(231, 231, 231);
+    align-content: center;
+    Align-Items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.yourtopbox button{
+    padding: 3px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 40%;
+    width: 50px;
+}
+
+.viewmorelink{
+    width: 260px;
+    height: 30px;
+    border: 2pt rgb(224, 224, 224) solid;
+}
+
+.viewmorelink{
+    font-size: 15pt;
+    padding: 20px;
+}

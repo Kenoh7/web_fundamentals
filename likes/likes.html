@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="likes.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class=headerbox>
+                <p>Network</p>
+            </div>
+            <h2>Your Feed</h2>
+        </div>
+    </header>
+    <main>
+        <div class="bodybox">
+            <div class="namebox">
+                <img class="usercircle" src="./icons/user-circle.png" alt="user-circle">
+                <a href="#">Add an avatar</a>
+                <h3>James Doe</h3>
+            </div>
+            <div class="feedbox">
+                <div class="container">
+                    <div class="namebox1">
+                        <div class="row1">
+                            <p class="User">Neil M</p>
+                            <p><input type="text" id="likecnt1" value="9">like(s)</input></p>
+                            <button onclick="setClick1()" id="neilbtn" class="likebtn">Like</button>
+                        </div>
+                        <div class="details1">
+                            <p>I just set up this new discord bot, let me</p>
+                            <p>know what you all thing. <a class="link" href="#">link</a></p>
+                        </div>
+                    </div>
+                    <div class="namebox2">
+                        <div class="row2">
+                            <p class="User">Nichole K</p>
+                            <p><input type="text" id="likecnt2" value="12">like(s)</input></p>
+                            <button onclick="setClick2()" id="nicholebtn" class="likebtn">Like</button>
+                        </div>
+                        <div class="details2">
+                            <p>Just finshed my <a class="nextComic" href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                    <div class="namebox3">
+                        <div class="row3">
+                            <p class="User">Jim R</p>
+                            <p><input type="text" id="likecnt3" value="9">like(s)</input></p>
+                            <button onclick="setClick3()" id="jimbtn" class="likebtn">Like</button>
+                        </div>
+                        <div class="details3">
+                            <p>I can't stop listening to the <a class="nextAlbum" href="#">next album.</a></p>
+                            <p>Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="likes.js"></script>
+</body>
+
+</html>

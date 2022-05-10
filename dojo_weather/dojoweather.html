@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dojoweather.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>DojoWeather</h1>
+            <nav>
+                <ul class="navbar">
+                    <li onclick="clickto(this)">Burbank</li>
+                    <li onclick="clickto(this)">Chicago</li>
+                    <li onclick="clickto(this)">Dallas</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <h2>San Jose</h2>
+                <p>show temperature in </p>
+                <select name="Degree" onchange="convert(this)">
+                    <option value="">&#176;C</option>
+                    <option value="">&#176;F</option>
+                </select>
+            </div>
+            <div class="forecast">
+                <section class="weatherdays">
+                    <h3>Today</h3>
+                    <img src="./assets/some_rain.png" alt="raincloud">
+                    <p>some rain</p>
+                    <ul>
+                        <li class="red" id='temp1'>24&#176;</li>
+                        <li class="blue" id='temp2'>18&#176;</li>
+                    </ul>
+                </section>
+                <section class="weatherdays">
+                    <h3>Tomorrow</h3>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <ul>
+                        <li class="red" id="temp3">27&#176;</li>
+                        <li class="blue" id='temp4'>19&#176;</li>
+                    </ul>
+                </section>
+                <section class="weatherdays">
+                    <h3>Friday</h3>
+                    <img src="./assets/some_clouds.png" alt="cloud">
+                    <p>some clouds</p>
+                    <ul>
+                        <li class="red" id='temp5'>21&#176;</li>
+                        <li class="blue" id='temp6'>26&#176;</li>
+                    </ul>
+                </section>
+                <section class="weatherdays">
+                    <h3>Saturday</h3>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <ul>
+                        <li class="red" id='temp7'>26&#176;</li>
+                        <li class="blue" id='temp8'>21&#176;</li>
+                    </ul>
+                </section>
+            </div>
+            <div id="cookiepopup" class="cookiealert">
+                <img src="./assets/cookie.png" alt="cookiepic">
+                <p><span>Stop! Cookie time</span> <br>
+                    We use cookies (sadly not the edible ones) to personalize<br>
+                    content and ads, to provide social media features and to<br>
+                    analyse our traffic. <a href="#">Read more...</a>
+                </p>
+                <button onclick="closecookie()">I Accept</button>
+            </div>
+        </main>
+    </div>
+    <script src="./dojoweather.js"></script>
+</body>
+
+</html>

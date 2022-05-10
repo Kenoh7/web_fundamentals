@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.headerbox{
+    background-color: black;
+    height: 60px;
+    width: 930px;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+}
+
+.headerbox p{
+    font-size: 30pt;
+}
+
+.header h2{
+    font-size: 30pt;
+    padding: 25px;
+}
+
+.bodybox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.namebox{
+    height: 360px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3pt solid black;
+}
+
+.bodybox,a,h3{
+    font-size: 20pt;
+}
+
+.usercircle{
+    border-radius: 50%;
+    height: 154px;
+    width: 154px;
+}
+
+.feedbox{
+    height:1000px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    height: 150px;
+    width: 600px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+
+}
+.namebox1, .namebox2 ,.namebox3{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border: 3pt solid black;
+}
+
+.namebox2, .namebox3{
+    margin-top: 20px;
+    padding: 0px 0px 30px 0px;
+}
+.row1 p, .row2 p, .row3 p{
+    font-size: 20pt;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+#likecnt1, #likecnt2, #likecnt3 {
+    width: 38px;
+    font-size: 25px;
+    background-color: white;
+    border: none;
+}
+
+.row1, .row2, .row3{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.likebtn{
+    padding: 5px 15px;
+    font-size: 18pt;
+    box-shadow:5px 5px black;
+    background-color: rgb(255, 200, 80);
+    border: 3pt solid black;
+    margin-left: -60px;
+    margin-right: -30px;
+}
+
+.details1, .details2 .details3 p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details1 p, .details2 p, .details3 p{
+    font-size: 20pt;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.link,.nextComic,.nextAlbum{
+    font-size: 20pt
+}

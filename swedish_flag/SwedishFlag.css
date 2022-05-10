@@ -1,0 +1,37 @@
+.box{
+    background-color: rgb(6, 101, 179);
+    height: 500px;
+    width: 800px;
+    display:inline-block
+}
+
+
+.y1{
+    background: rgb(255, 208, 0);
+    height: 100px;
+    width: 250px;
+    display:inline-block;
+    margin-bottom: 11%;
+    padding-left: 10px;
+    margin-left: -804px;
+    margin-right: -5px;
+    
+}
+
+.y2{
+    background: rgb(255, 208, 0);
+    height: 500px;
+    width: 100px;
+    display:inline-block;
+}
+
+.y3{
+    background: rgb(255, 208, 0);
+    height: 100px;
+    width: 443px;
+    display:inline-block;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 11%;
+    
+}

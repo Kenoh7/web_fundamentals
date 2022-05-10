@@ -1,0 +1,18 @@
+.background{
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
